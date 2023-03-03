@@ -9,36 +9,33 @@
     android:orientation="vertical"
     android:gravity="center">
 
-<!--    <TextView-->
-<!--        android:id="@+id/textView"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="W E L C O M E"-->
-<!--        android:textSize="50dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        android:textColor="@color/black"/>-->
-
-    <ImageView
-        android:layout_marginTop="20sp"
-        android:id="@+id/adImageView"
-        android:src="@drawable/ad1"
-        android:layout_width="350dp"
-        android:layout_height="500dp" />
-
-    <Button
-        android:layout_marginTop="20sp"
-        android:id="@+id/nextButton"
-        android:text="Next"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"/>
-
-    <Button
-        android:id="@+id/closeButton"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Close" />
+        android:text="W E L C O M E"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:textColor="@color/black"/>
+
+<!--    <ImageView-->
+<!--        android:layout_marginTop="20sp"-->
+<!--        android:id="@+id/adImageView"-->
+<!--        android:src="@drawable/ad1"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="500dp" />-->
+
+<!--    <Button-->
+<!--        android:layout_marginTop="20sp"-->
+<!--        android:id="@+id/nextButton"-->
+<!--        android:text="Next"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="wrap_content"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/closeButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Close" />-->
 
 </LinearLayout>
